@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface PCEAppDelegate : NSObject <NSApplicationDelegate>
+@interface PCEAppDelegate : NSObject <NSApplicationDelegate, NSSpeechSynthesizerDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property IBOutlet NSTextField *theInputField;
+@property NSMutableArray *theArray;
+@property NSSpeechSynthesizer *synthesizer;
 
 @end
