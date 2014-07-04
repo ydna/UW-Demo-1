@@ -390,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UW Demo 1/UW Demo 1-Prefix.pch";
 				INFOPLIST_FILE = "UW Demo 1/UW Demo 1-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UW Demo 1/UW Demo 1-Prefix.pch";
 				INFOPLIST_FILE = "UW Demo 1/UW Demo 1-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -424,6 +426,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "UW Demo 1Tests/UW Demo 1Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -442,6 +445,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UW Demo 1/UW Demo 1-Prefix.pch";
 				INFOPLIST_FILE = "UW Demo 1Tests/UW Demo 1Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -467,6 +471,7 @@
 				C6671F141964E6C1002E764E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6671F151964E6C1002E764E /* Build configuration list for PBXNativeTarget "UW Demo 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				C6671F171964E6C1002E764E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
